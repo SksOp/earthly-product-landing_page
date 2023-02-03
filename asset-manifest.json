@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/earthly-product-landing_page/static/css/main.faab5327.css",
+    "main.css": "/earthly-product-landing_page/static/css/main.49a20699.css",
     "main.js": "/earthly-product-landing_page/static/js/main.4bf2331b.js",
     "static/media/image1.webp": "/earthly-product-landing_page/static/media/image1.97d828e2bd67c7822839.webp",
     "static/media/image3.webp": "/earthly-product-landing_page/static/media/image3.b188c661009ba957e0a8.webp",
@@ -12,11 +12,11 @@
     "static/media/image5.webp": "/earthly-product-landing_page/static/media/image5.31d4d96e8c197a29d7ed.webp",
     "static/media/logo.webp": "/earthly-product-landing_page/static/media/logo.33724ae985801db549bb.webp",
     "index.html": "/earthly-product-landing_page/index.html",
-    "main.faab5327.css.map": "/earthly-product-landing_page/static/css/main.faab5327.css.map",
+    "main.49a20699.css.map": "/earthly-product-landing_page/static/css/main.49a20699.css.map",
     "main.4bf2331b.js.map": "/earthly-product-landing_page/static/js/main.4bf2331b.js.map"
   },
   "entrypoints": [
-    "static/css/main.faab5327.css",
+    "static/css/main.49a20699.css",
     "static/js/main.4bf2331b.js"
   ]
 }
