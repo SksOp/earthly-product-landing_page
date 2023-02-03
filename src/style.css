@@ -8,8 +8,14 @@
 
 body{
     background-color: rgb(222,222,222);
-    overflow: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 .nav-main{
     font-family: 'Roboto Condensed', sans-serif;
