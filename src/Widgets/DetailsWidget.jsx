@@ -51,11 +51,13 @@ const DetailsWidget =()=>{
                         >
                             <h3 style={{padding:"0",margin:"0"}} >Consists of:</h3>
                             <h4 style={{padding:"0 0 0 6px",margin:"0",color:darkgrey}}>
-                            2 Bamboo Straws <br/>
-                            1 Plant Based Reusable Cup with 2 lids <br/>
-                            1 Natural Loofah <br/>
-                            1 box of 50 Bamboo Cotton Eartips <br/>
-                            1 Bamboo Toothbrush <br/>
+                            <ul>
+                                <li>2 Bamboo Straws <br/></li>
+                                <li>1 Plant Based Reusable Cup with 2 lids <br/></li>
+                                <li>1 Natural Loofah <br/></li>
+                                <li>1 box of 50 Bamboo Cotton Eartips <br/></li>
+                                <li>1 Bamboo Toothbrush <br/></li>
+                            </ul>
                             </h4>
                             
                     </Typography>
@@ -70,12 +72,14 @@ const DetailsWidget =()=>{
                            
                             <h3 style={{padding:"0",margin:"0"}} >Features:</h3>
                             <h4 style={{padding:"0 0 0 6px",margin:"0",color:darkgrey}}>
-                            Govt Approved, Tested, and approved in TUV Rhineland, Germany<br/>
-                            100% recyclable and non-toxic<br/>
-                            Leak-Proof<br/>
-                            Odorless tasteless and doesn't react with hot beverages<br/>
-                            Lightweight<br/>
-                            Microwavable<br/>
+                        <ul>
+                            <li>Govt Approved, Tested, and approved in TUV Rhineland, Germany<br/></li>
+                            <li>100% recyclable and non-toxic<br/></li>
+                            <li>Leak-Proof<br/></li>
+                            <li>Odorless tasteless and doesn't react with hot beverages<br/></li>
+                            <li>Lightweight<br/></li>
+                            <li>Microwavable<br/></li>
+                        </ul>
                             </h4>
                     </Typography>
                 </FlexBetweenLeft>
