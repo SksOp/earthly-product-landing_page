@@ -18,14 +18,14 @@ const DetailsWidget =()=>{
     return(
         <WidgetWrapper  backgroundColor={greenLessOpacity} >
             <FlexBetween flexDirection={"column"} p="2%" >
-                <FlexBetweenLeft m={"0 0 5%"} flexDirection={"column"} >
-                    <Typography fontWeight={"900"} fontSize={!isNonMobileScreens?"150%":"3rem"}  lineHeight="102%" >
+                <FlexBetweenLeft m={"0 0 3%"} flexDirection={"column"} >
+                    <Typography fontWeight={"900"} fontSize={!isNonMobileScreens?"150%":"2.2rem"}  lineHeight="102%" >
                     Sustainability Starter Kit
                     </Typography>
                     <FlexBetween  alignItems={"center"} >
                         <Typography 
                         color={green} 
-                        fontSize={!isNonMobileScreens?"170%":"3rem"}  
+                        fontSize={!isNonMobileScreens?"170%":"2.5rem"}  
                         m={"0 10px 0 0"}
                         >
                             €10.99
@@ -33,7 +33,7 @@ const DetailsWidget =()=>{
                         <Typography
                         fontWeight={"400"} 
                         color={white} 
-                        fontSize={"1rem"} 
+                        fontSize={"0.8rem"} 
                         backgroundColor={green} 
                         borderRadius="10px" 
                         p="0 10px" >
@@ -42,25 +42,25 @@ const DetailsWidget =()=>{
                     </FlexBetween>
 
                 </FlexBetweenLeft>
-                <FlexBetweenLeft  m={"0 0 5%"} flexDirection={"column"} >
+                <FlexBetweenLeft  m={"0 0 3%"} flexDirection={"column"} >
                     <Typography
                         fontWeight={"400"} 
                         color={"black"} 
                         // fontSize={"1.5rem"} 
                         borderRadius="10px" 
                         >
-                            <h2 style={{padding:"0",margin:"0"}} >Consists of:</h2>
-                            <h3 style={{padding:"0 0 0 6px",margin:"0",color:darkgrey}}>
+                            <h3 style={{padding:"0",margin:"0"}} >Consists of:</h3>
+                            <h4 style={{padding:"0 0 0 6px",margin:"0",color:darkgrey}}>
                             2 Bamboo Straws <br/>
                             1 Plant Based Reusable Cup with 2 lids <br/>
                             1 Natural Loofah <br/>
                             1 box of 50 Bamboo Cotton Eartips <br/>
                             1 Bamboo Toothbrush <br/>
-                            </h3>
+                            </h4>
                             
                     </Typography>
                 </FlexBetweenLeft>
-                <FlexBetweenLeft  m={"0 0 5%"} flexDirection={"column"} >
+                <FlexBetweenLeft  m={"0 0 3%"} flexDirection={"column"} >
                     <Typography
                         fontWeight={"400"} 
                         color={"black"} 
@@ -68,15 +68,15 @@ const DetailsWidget =()=>{
                         borderRadius="10px" 
                         >
                            
-                            <h2 style={{padding:"0",margin:"0"}} >Features:</h2>
-                            <h3 style={{padding:"0 0 0 6px",margin:"0",color:darkgrey}}>
+                            <h3 style={{padding:"0",margin:"0"}} >Features:</h3>
+                            <h4 style={{padding:"0 0 0 6px",margin:"0",color:darkgrey}}>
                             Govt Approved, Tested, and approved in TUV Rhineland, Germany<br/>
                             100% recyclable and non-toxic<br/>
                             Leak-Proof<br/>
                             Odorless tasteless and doesn't react with hot beverages<br/>
                             Lightweight<br/>
                             Microwavable<br/>
-                            </h3>
+                            </h4>
                     </Typography>
                 </FlexBetweenLeft>
                 <FlexBetween 
@@ -91,7 +91,7 @@ const DetailsWidget =()=>{
                     backgroundColor={green}
                     color={white}
                     fontWeight={"500"} 
-                    fontSize={!isNonMobileScreens?"150%":"2rem"}  
+                    fontSize={!isNonMobileScreens?"150%":"1rem"}  
                     border={`1px solid ${green}`}
                     sx={{
                         "&:hover":{
@@ -113,7 +113,7 @@ const DetailsWidget =()=>{
                     m={"10px"}
                     backgroundColor={white}
                     fontWeight={"500"} 
-                    fontSize={!isNonMobileScreens?"150%":"2rem"} 
+                    fontSize={!isNonMobileScreens?"150%":"1rem"} 
                     sx={{
                         "&:hover":{
                             color:"black",

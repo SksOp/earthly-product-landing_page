@@ -17,7 +17,7 @@ const LandingPage = ()=>{
         <>
         <Navbar/>
         <FlexBetween flexDirection={"column"} >
-            <FlexBetween justifyContent={"space-around"} mt={"6rem"} flexDirection={isNonMobileScreens?"row":"column"}>
+            <FlexBetween  justifyContent={"space-around"} mt={"6rem"} flexDirection={isNonMobileScreens?"row":"column"}>
                     <ImageWidget/> 
                     <DetailsWidget /> 
             </FlexBetween>

@@ -33,8 +33,8 @@ const DetailsWidget =()=>{
                 <div ref={ref}>
                 <Grow in={inView}>
                 <Box 
-                width={300}
-                height={300}
+                width={200}
+                height={200}
                 borderRadius={"20px"}
                 mb={"30px"}
                 sx={{
@@ -44,8 +44,8 @@ const DetailsWidget =()=>{
                 }}
                 >
                     <Box
-                    width={300}
-                    height={300}
+                    width={200}
+                    height={200}
                     borderRadius={"20px"}
                     textAlign={"center"}
                     sx={{
@@ -65,7 +65,7 @@ const DetailsWidget =()=>{
                             fontSize:"1.5rem"
                         }}
                         >
-                            <h2 style={{"margin":"0"}}>Reusable Cup</h2>
+                            <h3 style={{"margin":"0"}}>Reusable Cup</h3>
                         </Typography>
                         
 
@@ -81,8 +81,8 @@ const DetailsWidget =()=>{
                 <div ref={ref}>
                     <Grow in={inView}>
                 <Box 
-                width={300}
-                height={300}
+                width={200}
+                height={200}
                 borderRadius={"20px"}
                 mb={"30px"}
                 sx={{
@@ -92,8 +92,8 @@ const DetailsWidget =()=>{
                 }}
                 >
                     <Box
-                    width={300}
-                    height={300}
+                    width={200}
+                    height={200}
                     borderRadius={"20px"}
                     textAlign={"center"}
                     sx={{
@@ -113,7 +113,7 @@ const DetailsWidget =()=>{
                             fontSize:"1.5rem"
                         }}
                         >
-                            <h2 style={{"margin":"0"}}>Bomboo Straw</h2>
+                            <h3 style={{"margin":"0"}}>Bomboo Straw</h3>
                         </Typography>
                         
 
@@ -129,8 +129,8 @@ const DetailsWidget =()=>{
                 <div ref={ref}>
                     <Grow in={inView}>
                 <Box 
-                width={300}
-                height={300}
+                width={200}
+                height={200}
                 borderRadius={"20px"}
                 mb={"30px"}
                 sx={{
@@ -141,8 +141,8 @@ const DetailsWidget =()=>{
                 >
                     <Box
                     
-                    width={300}
-                    height={300}
+                    width={200}
+                    height={200}
                     borderRadius={"20px"}
                     textAlign={"center"}
                     sx={{
@@ -162,7 +162,7 @@ const DetailsWidget =()=>{
                             fontSize:"1.5rem"
                         }}
                         >
-                            <h2 style={{"margin":"0"}}>Bamboo Toothbrush</h2>
+                            <h3 style={{"margin":"0"}}>Bamboo Toothbrush</h3>
                         </Typography>
                         
 
@@ -178,8 +178,8 @@ const DetailsWidget =()=>{
                 <div ref={ref}>
                     <Grow in={inView}>
                 <Box 
-                width={300}
-                height={300}
+                width={200}
+                height={200}
                 borderRadius={"20px"}
                 mb={"30px"}
                 sx={{
@@ -189,8 +189,8 @@ const DetailsWidget =()=>{
                 }}
                 >
                     <Box
-                    width={300}
-                    height={300}
+                    width={200}
+                    height={200}
                     borderRadius={"20px"}
                     textAlign={"center"}
                     sx={{
@@ -210,7 +210,7 @@ const DetailsWidget =()=>{
                             fontSize:"1.5rem"
                         }}
                         >
-                            <h2 style={{"margin":"0"}}>Natural Loofah</h2>
+                            <h3 style={{"margin":"0"}}>Natural Loofah</h3>
                         </Typography>
                        
 
@@ -226,8 +226,8 @@ const DetailsWidget =()=>{
                 <div ref={ref}>
                     <Grow in={inView}>
                 <Box 
-                width={300}
-                height={300}
+                width={200}
+                height={200}
                 borderRadius={"20px"}
                 mb={"30px"}
                 sx={{
@@ -237,8 +237,8 @@ const DetailsWidget =()=>{
                 }}
                 >
                     <Box
-                    width={300}
-                    height={300}
+                    width={200}
+                    height={200}
                     borderRadius={"20px"}
                     textAlign={"center"}
                     sx={{
@@ -258,7 +258,7 @@ const DetailsWidget =()=>{
                             fontSize:"1.5rem"
                         }}
                         >
-                            <h2 style={{"margin":"0"}}>Cotton Eartips</h2>
+                            <h3 style={{"margin":"0"}}>Cotton Eartips</h3>
                         </Typography>
                        
 

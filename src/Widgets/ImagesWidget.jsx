@@ -40,8 +40,8 @@ const ImageWidget = () =>{
                 justifyContent={"space-around"}
                 sx={{
                     "& img":{
-                    width:isNonMobileScreens?"6rem":"2.5rem",
-                    height:isNonMobileScreens?"6rem":"2.5rem",
+                    width:isNonMobileScreens?"5rem":"2.5rem",
+                    height:isNonMobileScreens?"5rem":"2.5rem",
                     padding:"5px" 
                     
                     }
@@ -110,7 +110,7 @@ const ImageWidget = () =>{
                 sx={{
                     mb:isNonMobileScreens?undefined:"10px",
                     "& img":{
-                       width:"100%",
+                       width:"90%",
                        
                        height:"auto", 
                     }
