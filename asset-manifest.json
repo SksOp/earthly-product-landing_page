@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/earthly-product-landing_page/static/css/main.75055506.css",
+    "main.js": "/earthly-product-landing_page/static/js/main.4e2711fd.js",
+    "static/media/image1.webp": "/earthly-product-landing_page/static/media/image1.97d828e2bd67c7822839.webp",
+    "static/media/image3.webp": "/earthly-product-landing_page/static/media/image3.b188c661009ba957e0a8.webp",
+    "static/media/image4.webp": "/earthly-product-landing_page/static/media/image4.616d353179ef87e47eda.webp",
+    "static/media/grass.webp": "/earthly-product-landing_page/static/media/grass.7064086279a052588163.webp",
+    "static/media/image2.webp": "/earthly-product-landing_page/static/media/image2.fd6e149465eefc6d1c7d.webp",
+    "static/media/image6.webp": "/earthly-product-landing_page/static/media/image6.013c5725f62ad6dd6d6d.webp",
+    "static/media/leaf.png": "/earthly-product-landing_page/static/media/leaf.c830413317e6956073e2.png",
+    "static/media/image5.webp": "/earthly-product-landing_page/static/media/image5.31d4d96e8c197a29d7ed.webp",
+    "static/media/logo.webp": "/earthly-product-landing_page/static/media/logo.33724ae985801db549bb.webp",
+    "index.html": "/earthly-product-landing_page/index.html",
+    "main.75055506.css.map": "/earthly-product-landing_page/static/css/main.75055506.css.map",
+    "main.4e2711fd.js.map": "/earthly-product-landing_page/static/js/main.4e2711fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75055506.css",
+    "static/js/main.4e2711fd.js"
+  ]
+}
