@@ -1,0 +1,87 @@
+:root{
+    --white : #fff;
+    --grey :rgb(222,222,222);
+    --green:rgba(10,81,55,1);
+    --greenLessOpacity:rgba(10,81,55, 0.09);
+    --whiteLessOpacity:rgba(255,255,255, 0.62);
+}
+
+body{
+    background-color: rgb(222,222,222);
+}
+
+.nav-main{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 20%;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+
+.nav-route{
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 2% 7rem 0 0  ;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    transition: 1s;
+}
+.nav-route-mob{
+    font-family: 'Roboto Condensed', sans-serif;
+    /* margin: 3% 2rem 0 ; */
+    font-weight: 900;
+    font-size: 1.5rem;
+    
+
+}
+.nav-main,.nav-route:hover{
+    color:var(--green);  
+    cursor: pointer; 
+}
+.nav-route::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    bottom: 10px;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+.nav-route:hover::before {
+    transform: scaleX(1.5);
+  }
+
+
+  .br{
+    width: 70%;
+    background-color: black;
+    height: 2px;
+}
+
+.leaf{
+ position: fixed;
+    top: 30%;
+    right: 0;
+    opacity:0.5;
+    z-index: -1;
+}
+
+
+.vector{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+.grass{
+    position: fixed;
+    bottom: -30%;
+    right: -10%;
+    width: 120vw;
+    opacity: 0.2;
+    z-index: -1;
+    
+}
