@@ -4,9 +4,11 @@ import {Box,useMediaQuery,useTheme, Grow, Typography,IconButton} from "@mui/mate
 import { InView } from 'react-intersection-observer';
 import { Facebook,WhatsApp,Twitter, Instagram } from "@mui/icons-material";
 import { height } from "@mui/system";
-
+import { useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom";
 const Footer = ()=>{
     const theme =useTheme();
+    const navigate = useNavigate();
     const grey = theme.colorToken.grey;
     const green = theme.colorToken.green;
     const white  = theme.colorToken.white;
@@ -19,13 +21,13 @@ const Footer = ()=>{
             <div ref={ref}>
         <FlexBetween  minHeight={"20px"} justifyContent={"center"} p={"0 5rem"} >
             <Grow in={inView}>
-            <IconButton sx={{
+            <IconButton  sx={{
                 m:"0 1rem",
                 "& svg":{
                     fontSize:"2rem"
                 }
             }} >
-                <Facebook/>
+                <Link to={{ pathname: "https://www.facebook.com/wix" }} target="_blank"><Facebook/></Link>
             </IconButton>
             </Grow>
             <Grow in={inView}>
@@ -42,14 +44,14 @@ const Footer = ()=>{
             </IconButton>
             </Grow>
             <Grow in={inView}>
-            <IconButton sx={{
+            <IconButton  sx={{
                 m:"0 1rem",
                 "& svg":{
                     
                     fontSize:"2rem"
                 }
             }} >
-                <Instagram/>
+                <Link to={{ pathname: "https://www.instagram.com/wix/" }}  target="_blank"><Instagram/></Link>
             </IconButton>
             </Grow>
             

@@ -13,12 +13,13 @@ import DescriptionWidget from "../Widgets/DescriptionWidget"
 import Footer from "./Footer"
 import image from "../images/earth.gif"
 import WidgetWrapper from "../components/WidgetWrapper";
+import { useNavigate } from "react-router-dom"
 import { InView } from "react-intersection-observer";
 
 const HomePage = ()=>{
     const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
     const theme =useTheme();
-
+    const navigate = useNavigate();
     const grey = theme.colorToken.grey;
     const green = theme.colorToken.green;
     const white  = theme.colorToken.white;
@@ -80,10 +81,10 @@ const HomePage = ()=>{
                     <div ref={ref}>
                     <Grow in={inView}  mountOnEnter unmountOnExit >
                     <Box 
-                    width={500}
-                    height={500}
+                    width={isNonMobileScreens?500:300}
+                    height={isNonMobileScreens?500:300}
                     borderRadius={"20px"}
-                    mb={"30px"}
+                    mb={isNonMobileScreens?"30px":"3rem"}
                     sx={{
                         background:`url(${image})`,
                         "background-size":"cover",
@@ -124,6 +125,7 @@ const HomePage = ()=>{
                         </Typography>
                     </FlexBetween>
                     </Slide>
+                    <Box onClick={()=>navigate("/earthly-product-landing_page/store")}>
                     <Slide direction="left" in={inView}>
                         <Typography 
                         borderRadius={"10px"}
@@ -134,6 +136,7 @@ const HomePage = ()=>{
                         fontWeight={"500"} 
                         fontSize={!isNonMobileScreens?"150%":"1rem"}  
                         border={`1px solid ${green}`}
+                        
                         sx={{
                             "&:hover":{
                                 color:green,
@@ -147,6 +150,7 @@ const HomePage = ()=>{
                             Buy Now
                         </Typography>
                         </Slide>
+                        </Box>
                 </FlexBetween>
             </div>
                 )}

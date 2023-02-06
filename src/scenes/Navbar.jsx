@@ -115,11 +115,11 @@ const Navbar =()=>{
                         </IconButton>
                         <FlexBetween flexDirection={"column"} alignItems="center" >
                         
-                            <h1 className="nav-route-mob" >
+                            <h1 className="nav-route-mob" onClick={()=>navigate("/earthly-product-landing_page/")} >
                                 Home
                             </h1>
                             <div className="br" ></div>
-                            <h1 className="nav-route-mob" >
+                            <h1 className="nav-route-mob" onClick={()=>navigate("/earthly-product-landing_page/store")} >
                                 Store
                             </h1>
                             <div className="br" ></div>

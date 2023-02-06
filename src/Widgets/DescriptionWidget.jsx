@@ -23,8 +23,12 @@ const DetailsWidget =()=>{
     const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
     return(
         <WidgetWrapper backgroundColor={whiteLessOpacity} >
-       
+            <FlexBetween flexDirection={"column"} >
+            <Typography m={ "0 0 1rem 0.5rem"} fontWeight={"900"} fontSize={!isNonMobileScreens?"150%":"2.2rem"}  lineHeight="102%" >
+                    Products: 
+            </Typography>
             <FlexBetween flexWrap={"wrap"} justifyContent={"space-around"} >
+                
                 {/* <div style={{background:`url(${image2})`,"background-size":"cover"}} >
             
                 </div> */}
@@ -271,7 +275,7 @@ const DetailsWidget =()=>{
                 </InView>
                 
             </FlexBetween>     
-       
+        </FlexBetween>                
         </WidgetWrapper>
     )
 
