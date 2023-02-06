@@ -5,9 +5,11 @@ import FlexBetween from "../components/Flexbetween"
 import FlexBetweenLeft from "../components/FlexbetweenLeft"
 import "../style.css"
 import { useState } from "react"
+import { useNavigate } from "react-router-dom"
 
 const Navbar =()=>{
     const theme =useTheme();
+    const navigate = useNavigate();
     const grey = theme.colorToken.grey;
     const green = theme.colorToken.green;
     const white  = theme.colorToken.white;
@@ -30,17 +32,19 @@ const Navbar =()=>{
         "z-index":"10"
     }}
     >
-        <FlexBetween alignItems="center">
+        <FlexBetween alignItems="center" onClick={()=>navigate("/earthly-product-landing_page/")} >
             <img  src={Logo} height={"100%"} width={"40%"}  />
             <h1  className="nav-main" >earthly</h1>
             
         </FlexBetween>
         {isNonMobileScreens?(
         <FlexBetween>
-            <h1 className="nav-route" >
+
+            
+            <h1 className="nav-route" onClick={()=>navigate("/earthly-product-landing_page/")} >
                 Home
             </h1>
-            <h1 className="nav-route" >
+            <h1 className="nav-route" onClick={()=>navigate("/earthly-product-landing_page/store")}>
                 Store
             </h1>
             <Box 
